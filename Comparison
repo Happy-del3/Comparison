@@ -1,0 +1,52 @@
+import java.util.Scanner;
+ 
+public class Comparison {
+ 
+    public static void main(String[] args) {
+        // Declare variables and constants
+        Scanner sc = new Scanner(System.in);
+        int num1, num2;
+        
+        // Display and convert a welcome message to uppercase
+        System.out.println("welcome to the comparison of two numbers".toUpperCase() + "\n" + 
+                           "----------------------------------------");
+        
+        // Prompt for user to enter the first number
+        System.out.print("Please enter the first number: ");
+        
+        // Read the first number entered by the user
+        num1 = sc.nextInt();
+        
+        // Prompt for user to enter the second number
+        System.out.print("Please enter the second number: ");
+        
+        // Read the second number entered by the user
+        num2 = sc.nextInt();
+        
+        // Check and display, if first number is equal to the second number
+        if(num1 == num2)
+            System.out.println(num1 + " == " + num2);
+        
+        // Check and dispaly, if first number is not equal to the second number
+        if(num1 != num2)
+            System.out.println(num1 + " != " + num2);
+        
+        // Check and display, if first number is greater or equal to the second number
+        if(num1 >= num2)
+            System.out.println(num1 + " >= " + num2);
+        
+        // Check and display, if first number is less or equal to the second number
+        if(num1 <= num2)
+            System.out.println(num1 + " <= " + num2);
+        
+        // Check and display, if first number is greater than the second number
+        if(num1 > num2)
+            System.out.println(num1 + " > " + num2);
+        
+        // Check and display, if first number is less than the second number
+        if(num1 < num2)
+            System.out.println(num1 + " < " + num2);
+        
+    }
+    
+}
